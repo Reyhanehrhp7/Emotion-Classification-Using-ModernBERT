@@ -1,0 +1,43 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Large data/model folders (keep local only)
+trained_emotion_model/
+results/
+bert_multilabel/
+
+# Common ML artifacts
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.bin
+*.onnx
+*.pb
+*.joblib
+*.npy
+*.npz
+
+# Logs and temp files
+*.log
+*.tmp
+.DS_Store
+
+# OS-specific
+Thumbs.db
